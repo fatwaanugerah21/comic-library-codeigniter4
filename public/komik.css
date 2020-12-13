@@ -1,0 +1,65 @@
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.shadowed {
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+}
+
+body {
+  background: #f1f1f1;
+}
+
+table > tbody > tr > * {
+  vertical-align: middle !important;
+  padding: 50px 0 !important;
+  margin: 0 auto !important;
+}
+
+.title {
+  font-size: 27pt;
+  font-family: "Times New Roman", Times, serif;
+}
+
+table > thead > tr > * {
+  background-color: rgb(40, 58, 116) !important;
+  border-bottom: none !important;
+  padding: 30px 10px !important;
+  color: white;
+}
+
+.list-number {
+  padding-left: 20px !important;
+}
+
+table > tbody > tr:hover {
+  background: rgb(223, 222, 222);
+}
+
+tbody > tr:nth-child(odd) {
+  background-color: rgb(250, 247, 247);
+}
+tbody > tr:nth-child(even) {
+  background-color: white;
+}
+
+img {
+  height: 170px;
+  width: 140px;
+}
+
+.custom_pagination {
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 50px 0;
+  margin-top: -18px;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+.custom_pagination .navigation-list {
+  margin: 0 auto;
+  width: fit-content;
+  transform: scale(1.4);
+}
