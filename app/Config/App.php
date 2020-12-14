@@ -21,7 +21,7 @@ class App extends BaseConfig
 	| environments.
 	|
 	*/
-	public $baseURL = 'http://localhost:8080/';
+	public $baseURL = 'https://practical-banach-bbb0a9.netlify.app/';
 
 	/*
 	|--------------------------------------------------------------------------
